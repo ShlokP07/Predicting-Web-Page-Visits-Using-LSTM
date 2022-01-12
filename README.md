@@ -2,6 +2,20 @@
 # LSTM Theory
 ![LSTM3-chain](https://user-images.githubusercontent.com/22417910/149158585-08f0570b-f959-405e-b4d9-f0002b3a71c5.png)
 
+## Table of Contents
+* [Why Do we Need LSTM](#why-do-we-need-lSTM)
+* [Different components of LSTM](#different-components-of-lstm)
+* [Operators](#operators)
+  * [Point wise operator](#point-wise-operator)
+  * [Addition Operator](#addition-operator)
+* [What is the Cell State?](#what-is-the-cell-state)
+* [Forget Gate](#forget-gate)
+* [Input Gate](#input-gate)
+* [Output Gate](#output-gate)
+* [Credits](#credits)
+* [Further Reading](#further-reading)
+
+
 ## Why Do we Need LSTM
 LSTM are a solution to the issues that a RNN faces. **RNN face 3 main problems:**
 1.  Vanishing gradient problem 
@@ -79,7 +93,7 @@ Next we apply a tanh activation function to the values of the cell state. This o
 
 This its the output to the next hidden layer
 
-# Credits
+## Credits
 **All credits to the images goes to the due authors**
 
 - https://colah.github.io/posts/2015-08-Understanding-LSTMs/
@@ -89,7 +103,7 @@ This its the output to the next hidden layer
 - https://en.wikipedia.org/wiki/Sigmoid_function
 - https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6
 
-# Further Reading
+## Further Reading
 - [Colah Blog](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [CodeEmporium](https://www.youtube.com/watch?v=QciIcRxJvsM)
 - [The A.I. Hacker - Michael Phi](https://www.youtube.com/watch?v=8HyCNIVRbSU)
